@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+  $("button").click(function(){
+   $("h5").toggle();
+  });
+});
+$(document).ready(function(){
+  
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
+</head>
+<body>
+
+<h2>Lista facultatilor</h2>
+    <h3>SREM <button>-></button></h3>
+        <p>Informatica(stiinte exacte) <button id="show">Grupele</button></p>
+            <h5>IS11Z</h5>
+            <h5>IS21Z</h5>
+            <h5>IS31Z</h5>
+            <h5>IS31R</h5>
+        <p>Matematica si informatica </p>
+            <h5>MI11Z</h5>
+            <h5>MI21Z</h5>
+        <p>Fizica</p>
+            <h5>FI11Z</h5>
+    <h3>Litere</h3>
+    <h3>Drept</h3>
+
+   
+</body>
+</html>
